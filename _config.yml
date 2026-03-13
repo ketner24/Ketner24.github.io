@@ -2,4 +2,5 @@ title: Shaun Ketner
 description: Operations Research
 logo: images/CPT_Ketner_CMD_photo.jpg
 show_downloads: no
-theme:jekyll-theme-minimal
+remote_theme: "mmistakes/minimal-mistakes"
+#theme:jekyll-theme-minimal
