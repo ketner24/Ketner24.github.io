@@ -43,7 +43,7 @@ Here we show two common methods for inserting images.
 
 Method 1: Use HTML img tag.
 
-<img src='QR_code_screenshot.png' alt='dashboard' height=200/>
+<img src='images/QR_code_screenshot.png' alt='dashboard' height=200/>
 
 ### Streamlit App for auditing the Mega millions, Powerball, and CA Superlotto plus for fainess and an AI predictor for fun number to choose.
 
@@ -53,7 +53,7 @@ A Streamlit-powered tool that downloads historical lottery data, runs rigorous s
 
 Here we show two common methods for inserting images.
 
-<img src='Lottery_screenshot.png' alt='dashboard' height=200/>
+<img src='images/Lottery_screenshot.png' alt='dashboard' height=200/>
 
 ### Docker App for Iran Conflict tracking historical event data and real time aviation and maritime tracking.
 
@@ -61,5 +61,5 @@ Application is on run locally on Docker, run application locally.
 
 Docker App for interactive mapping application that fuses historical conflict event data with real-time aviation and maritime tracking across the U.S. Central Command Area of Responsibility.
 
-<img src='Iran_conflict_tracker.png' alt='dashboard' height=200/>
+<img src='images/Iran_conflict_tracker.png' alt='dashboard' height=200/>
 
