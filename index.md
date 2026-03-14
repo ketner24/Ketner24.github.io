@@ -6,8 +6,6 @@ author_profile: true
 
 ## About Me
 
----
-
 I am a U.S. Army Operations Research Officer and a current graduate student at the Naval Postgraduate School (NPS) pursuing an MS in Operations Research (expected 2027). My work focuses on the intersection of military strategy, data analysis, and mathematical programming.
 
 ---
