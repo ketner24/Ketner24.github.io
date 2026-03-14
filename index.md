@@ -11,8 +11,8 @@ I am a U.S. Army Operations Research Officer and a current graduate student at t
 ---
 
 ## Contact
-* **Email:** [sketner24@gmail.com](mailto:sketner24@gmail.com)
-* **Email:** [shaun.ketner@nps.edu](mailto:shaun.ketner@nps.edu)
+* **Personal Email:** [sketner24@gmail.com](mailto:sketner24@gmail.com)
+* **NPS Email:** [shaun.ketner@nps.edu](mailto:shaun.ketner@nps.edu)
 * **NIPR:** [shaun.d.ketner.mil@army.mil](mailto:shaun.d.ketner.mil@army.mil)
 * **Phone:** 484-767-6317
   
@@ -27,6 +27,7 @@ I am a U.S. Army Operations Research Officer and a current graduate student at t
 * **MS, Operations Research** | Naval Postgraduate School (2027)
 * **MS, Geological Engineering** | Missouri University of Science and Technology (2019)
 * **BS, Electrical Engineering** | The Citadel (2014)
+* **Project Management Professional** | Project Management Institute (2020, 2023)
 
 ---
 
