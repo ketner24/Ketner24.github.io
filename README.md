@@ -8,6 +8,13 @@ Phone: 484-767-6317
 About Me
 I am a Major in the U.S. Army and a current graduate student at the Naval Postgraduate School (NPS) pursuing an MS in Operations Research (expected 2027). My work focuses on the intersection of military strategy, data analysis, and mathematical programming.
 
+Education
+MS, Operations Research | Naval Postgraduate School (2027)
+
+MS, Geological Engineering | Missouri University of Science and Technology (2019)
+
+BS, Electrical Engineering | The Citadel (2014)
+
 **Interested In:** Data Analysis, AI/ML, Data Visualization, Electrical Engineering, Geophysics, Network Linear Programming in Power Systems, Hydrology
 
 **Skills:** Geospatial Analysis, Signal Processing and Time Series, Mathematical Programming, Python and C++
@@ -56,11 +63,6 @@ View Repository: https://github.com/ketner24/py_qrcode_gen_png
 
 <img src="images/QR_code_screenshot.png" alt="QR Code Dashboard" width="600"/>
 
-Education
-MS, Operations Research | Naval Postgraduate School (2027)
 
-MS, Geological Engineering | Missouri University of Science and Technology (2019)
-
-BS, Electrical Engineering | The Citadel (2014)
 
 
