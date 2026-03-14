@@ -1,6 +1,5 @@
-# Shaun Ketner
+## US Army Operations Research Officer
 
-### US Army Operations Research Officer
 Contact Me
 Email: sketner24@gmail.com
 Phone: 484-767-6317
