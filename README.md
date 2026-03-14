@@ -1,6 +1,7 @@
 # US Army Operations Research Officer
+layout: single author_profile: true title: "Shaun Ketner | Operations Research Portfolio"
 
-Contact Me
+Contact Me:
 Email: sketner24@gmail.com
 Phone: 484-767-6317
 
@@ -17,7 +18,7 @@ BS, Electrical Engineering | The Citadel (2014)
 **Interested In:** Data Analysis, AI/ML, Data Visualization, Electrical Engineering, Geophysics, Network Linear Programming in Power Systems, Hydrology
 
 **Skills:** Geospatial Analysis, Signal Processing and Time Series, Mathematical Programming, Python and C++
-layout: single author_profile: true title: "Shaun Ketner | Operations Research Portfolio"
+
 
 Professional Experience
 Assistant Operations Officer / APS3 Property Manager
