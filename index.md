@@ -5,18 +5,24 @@ author_profile: true
 ---
 
 ## About Me
+
+---
+
 I am a Major in the U.S. Army and a current graduate student at the Naval Postgraduate School (NPS) pursuing an MS in Operations Research (expected 2027). My work focuses on the intersection of military strategy, data analysis, and mathematical programming.
 
 ---
 
 ## Contact
 * **Email:** [sketner24@gmail.com](mailto:sketner24@gmail.com)
+* **Email:** [shaun.ketner@nps.edu](mailto:shaun.ketner@nps.edu)
+* **NIPR:** [shaun.d.ketner.mil@army.mil](mailto:shaun.d.ketner.mil@army.mil)
 * **Phone:** 484-767-6317
   
 ---
 
 **Interested In:** Data Analysis, AI/ML, Data Visualization, Electrical Engineering, Geophysics, Network Linear Programming in Power Systems, Hydrology  
 **Skills:** Geospatial Analysis, Signal Processing and Time Series, Mathematical Programming, Python and C++
+
 ---
 
 ## Education
