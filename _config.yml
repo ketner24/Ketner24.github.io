@@ -1,6 +1,23 @@
 title: Shaun Ketner
 description: Operations Research
-logo: images/CPT_Ketner_CMD_photo.jpg
-show_downloads: no
 remote_theme: "mmistakes/minimal-mistakes"
-#theme:jekyll-theme-minimal
+
+# THIS IS THE MISSING PLUGIN TO FIX THE RED X
+plugins:
+  - jekyll-include-cache
+
+# This puts your photo and info in the sidebar
+author:
+  name: "Shaun Ketner"
+  avatar: "images/CPT_Ketner_CMD_photo.jpg"
+  bio: "Operations Research Officer | MS Student at NPS"
+  location: "Monterey, CA"
+
+# This makes the sidebar show up on every page
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
