@@ -1,4 +1,4 @@
-## US Army Operations Research Officer
+# US Army Operations Research Officer
 
 Contact Me
 Email: sketner24@gmail.com
