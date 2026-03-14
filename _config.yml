@@ -9,7 +9,7 @@ plugins:
 # This puts your photo and info in the sidebar
 author:
   name: "Shaun Ketner"
-  avatar: "images/CPT_Ketner_CMD_photo.jpg"
+  avatar: "/images/CPT_Ketner_CMD_photo.jpg"
   bio: "Operations Research Officer | MS Student at NPS"
   location: "Monterey, CA"
 
