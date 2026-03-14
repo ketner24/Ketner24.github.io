@@ -1,65 +1,66 @@
-# Ketner24.github.io
-Shaun Ketner Github Portfolio
 # Shaun Ketner
 
 ### US Army Operations Research Officer
+Contact Me
+Email: sketner24@gmail.com
+Phone: 484-767-6317
+
+About Me
+I am a Major in the U.S. Army and a current graduate student at the Naval Postgraduate School (NPS) pursuing an MS in Operations Research (expected 2027). My work focuses on the intersection of military strategy, data analysis, and mathematical programming.
 
 **Interested In:** Data Analysis, AI/ML, Data Visualization, Electrical Engineering, Geophysics, Network Linear Programming in Power Systems, Hydrology
 
 **Skills:** Geospatial Analysis, Signal Processing and Time Series, Mathematical Programming, Python and C++
+layout: single author_profile: true title: "Shaun Ketner | Operations Research Portfolio"
 
-## Contact Me
-- **Email:** sketner24@gmail.com
-- **Phone:** 484-767-6317
-- **LinkedIn:** TBD[technical difficulties]
+Professional Experience
+Assistant Operations Officer / APS3 Property Manager
+8th Special Troop Battalion, 8th Theater Sustainment Command | Aug 2023 – June 2025
 
-## Education
-- MS, Operations Research | Naval Postgraduate School (_2027_)
-- MS, Geological Engineering | Missouri University of Science and Technology (_2019_)
-- BS, Electrical Engineering | The Citadel (_2014_)
+Managed future operations and resourcing for Battalion exercises with joint and allied partners.
 
-## Work Experience
-**Assistant Operations Officer/APS3 Property Manager**           
-8th Special Troop Battalion, 8th Theater Sustainment Command     
-(_August 2023 - June 2025_)
-- Responsible for future operations and resourcing of Battalion operations and training exercises, including operations with joint and allied partners.
-- Updated unit training plans, unit training calendars and all tasks assigned for higher headquarters, land and ammunition, and schools.
-- Accountable for 4 UICs of Army Prepositioned Stock(APS) 3 valued over $100 million strategically place in the INDOPACIFIC.
+Accountable for 4 UICs of Army Prepositioned Stock (APS-3) valued over $100 million in the INDOPACIFIC.
 
-**Company Commander Route Clearance Company**           
-95th Engineer Company, 84th Engineer Battalion, 130th Engineer Brigade   
-(_March 2022 - July2023_)
-- Responsible for the professional development, training, discipline, administration, and welfare of 145 Soldiers and Families.
-- Sustain Accountability, serviceability, and maintenance of all sets, kits and outfits, vehicles, and equipment valued over $64 million across 5 platoons.
+Synchronized unit training plans and higher headquarters taskings.
 
-## Projects
+Company Commander (Route Clearance)
+95th Engineer Company, 84th Engineer Battalion, 130th Engineer Brigade | March 2022 – July 2023
 
-### Streamlit App for Generating QR Codes
-https://github.com/ketner24/py_qrcode_gen_png
+Responsible for the professional development, discipline, and welfare of 145 Soldiers and Families.
 
-Designed and developed a dynamic streamlit dashboard to enable NPS community to build custom QR Codes.
+Maintained accountability and serviceability of vehicle fleets and equipment valued over $64 million.
 
-Here we show two common methods for inserting images.
+Technical Projects
+Lottery Statistical Auditor & AI Predictor
+A Streamlit-powered tool that audits historical lottery data for fairness and utilizes an XGBoost machine learning model for number suggestion.
 
-Method 1: Use HTML img tag.
+Tech: Python, Streamlit, XGBoost.
 
-<img src='images/QR_code_screenshot.png' alt='dashboard' height=200/>
+View Repository: https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor
 
-### Streamlit App for auditing the Mega millions, Powerball, and CA Superlotto plus for fainess and an AI predictor for fun number to choose.
+<img src="images/Lottery_screenshot.png" alt="Lottery Dashboard" width="600"/>
 
-https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor
+Iran Conflict Tracker (Docker App)
+Interactive mapping application that fuses historical conflict data with real-time aviation and maritime tracking across the USCENTCOM AOR.
 
-A Streamlit-powered tool that downloads historical lottery data, runs rigorous statistical fairness tests, and trains an XGBoost machine learning model to generate number suggestions — with honest backtest reporting so you can see exactly how (in)effective prediction really is.
+Tech: Docker, Geospatial Analysis.
 
-Here we show two common methods for inserting images.
+<img src="images/Iran_conflict_tracker.png" alt="Conflict Tracker Dashboard" width="600"/>
 
-<img src='images/Lottery_screenshot.png' alt='dashboard' height=200/>
+QR Code Generator for NPS
+A dynamic dashboard developed to enable the NPS community to build custom QR codes for academic and professional use.
 
-### Docker App for Iran Conflict tracking historical event data and real time aviation and maritime tracking.
+Tech: Python, Streamlit.
 
-Application is on run locally on Docker, run application locally.
+View Repository: https://github.com/ketner24/py_qrcode_gen_png
 
-Docker App for interactive mapping application that fuses historical conflict event data with real-time aviation and maritime tracking across the U.S. Central Command Area of Responsibility.
+<img src="images/QR_code_screenshot.png" alt="QR Code Dashboard" width="600"/>
 
-<img src='images/Iran_conflict_tracker.png' alt='dashboard' height=200/>
+Education
+MS, Operations Research | Naval Postgraduate School (2027)
+
+MS, Geological Engineering | Missouri University of Science and Technology (2019)
+
+BS, Electrical Engineering | The Citadel (2014)
+
 
