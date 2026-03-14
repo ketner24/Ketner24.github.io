@@ -12,6 +12,10 @@ author:
   avatar: "https://ketner24.github.io/images/CPT_Ketner_CMD_photo.jpg"
   bio: "Operations Research Officer | MS Student at NPS"
   location: "Monterey, CA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ketner24"
 
 # This makes the sidebar show up on every page
 defaults:
