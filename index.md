@@ -8,7 +8,7 @@ author_profile: true
 
 ---
 
-I am a Major in the U.S. Army and a current graduate student at the Naval Postgraduate School (NPS) pursuing an MS in Operations Research (expected 2027). My work focuses on the intersection of military strategy, data analysis, and mathematical programming.
+I am a U.S. Army Operations Research Officer and a current graduate student at the Naval Postgraduate School (NPS) pursuing an MS in Operations Research (expected 2027). My work focuses on the intersection of military strategy, data analysis, and mathematical programming.
 
 ---
 
