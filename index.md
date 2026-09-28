@@ -49,7 +49,7 @@ Current work sits at the intersection of Bayesian methods, mathematical programm
 ### Graduate Student, Operations Research
 *Naval Postgraduate School · Monterey, CA · 2025 – Present*
 
-Coursework and research in stochastic modeling, simulation analysis, machine learning, optimization, and military applications of operations research. Thesis work on measuring adversary use of publicly available information against corps operations; presented at AORS26.
+Coursework and research in stochastic modeling, simulation analysis, Bayesian computation, and military applications of operations research. Thesis work on measuring adversary use of publicly available information against corps operations; presented at AORS.
 
 ### Assistant Operations Officer / APS-3 Property Manager
 *8th Special Troops Battalion, 8th Theater Sustainment Command · Aug 2023 – Jun 2025*
@@ -62,7 +62,7 @@ Coursework and research in stochastic modeling, simulation analysis, machine lea
 *95th Engineer Company, 84th Engineer Battalion, 130th Engineer Brigade · Mar 2022 – Jul 2023*
 
 - Commanded 145 Soldiers and Families.
-- Accountable for route clearance vehicles and equipment valued at more than $64 million.
+- Accountable for vehicle fleets and equipment valued at more than $64 million.
 
 ---
 
@@ -90,7 +90,7 @@ Planning application for military gap crossing. It pulls an area of operations f
 <img src="images/Gap_Crossing_App_1.png" alt="Gap crossing route and gap view" width="640"/>
 <img src="images/Gap_Crossing_App_2.png" alt="Gap crossing synchronization view" width="640"/>
 
-### Stochastic portfolio analyzer: regime-aware CVaR
+### Stochastic portfolio analyzer — regime-aware CVaR
 
 Production-style portfolio API that detects market regimes with a Bayesian hidden Markov model, then solves a CVaR-constrained allocation. Includes walk-forward backtests with transaction costs, an efficient-frontier endpoint, SQLite caching, and scheduled daily updates.
 
@@ -102,6 +102,7 @@ Production-style portfolio API that detects market regimes with a Bayesian hidde
 Discrete-event simulation of the Big Sur International Marathon in SimPy, with a Streamlit front end for exploring logistics rates, congestion, and support posture.
 
 **Methods:** Python · SimPy · Streamlit  
+**Live:** [Big Sur Marathon Simulator](https://bigsurmarathonsimulation-s2vc5wu3a3qztzhtgiwfdc.streamlit.app/)  
 **Code:** [Big_Sur_Marathon_Simulation](https://github.com/ketner24/Big_Sur_Marathon_Simulation)
 
 <img src="images/Big_sur_Marathon_Simulator.png" alt="Big Sur marathon simulation dashboard" width="640"/>
@@ -111,6 +112,7 @@ Discrete-event simulation of the Big Sur International Marathon in SimPy, with a
 Quantitative FX pipeline: Bayesian structural time series for inference, covariance-aware portfolio construction, OANDA execution, risk limits, audit logging, and Grafana monitoring, with tests around the execution path.
 
 **Methods:** Python · Bayesian structural time series · portfolio optimization · PyTest · Grafana  
+**Live:** [Bayesian FX app](https://bayesian-fx-market-modeling-hkxdjjdryngwi2sau8kshm.streamlit.app/)  
 **Code:** [Bayesian-FX-Market-Modeling](https://github.com/ketner24/Bayesian-FX-Market-Modeling)
 
 <img src="images/Bayesian_FX.png" alt="Bayesian FX architecture" width="640"/>
@@ -137,21 +139,25 @@ Interactive map that fuses historical conflict data with live aviation and marit
 
 ## Coursework tools
 
-Built while working through NPS sequences in Bayesian computation and simulation. Useful if you want to see how I explain the math, not just apply it.
+Built while working through NPS sequences in Bayesian computation and simulation. Each of these is a live GitHub Pages site.
 
-- [Simulation Analysis (OA4333) study guide](https://github.com/ketner24/Simulation_Analysis_OA4333_study_guide) — nine modules on the DOE deck: intuition, worked example, failure modes, and why it matters.
-- [Bayesian neural networks weekly review](https://github.com/ketner24/Bayesian_Neural_Networks_study_guide) — CS4323 companion with a Sunday-prep / weekly-run / recap loop.
-- [Ensembles, flows, and variational inference](https://github.com/ketner24/ensembles_flows_vi)
-- [Random-walk approximate Bayesian methods](https://github.com/ketner24/Random-Walk-Approximate-Bayesian-Methods)
-- [Gaussian variational inference](https://github.com/ketner24/Gaussian_Variational_Inference)
-- [Variational inference with dropout](https://github.com/ketner24/Variational_Inference_Dropout)
+- **Simulation Analysis (OA4333)** — nine modules on the DOE deck: intuition, worked example, failure modes, and why it matters. [Live](https://ketner24.github.io/Simulation_Analysis_OA4333_study_guide/) · [Code](https://github.com/ketner24/Simulation_Analysis_OA4333_study_guide)
+- **Bayesian neural networks weekly review** — CS4323 companion with a Sunday-prep / weekly-run / recap loop. [Live](https://ketner24.github.io/Bayesian_Neural_Networks_study_guide/) · [Code](https://github.com/ketner24/Bayesian_Neural_Networks_study_guide)
+- **BNN visualizations** — [Live](https://ketner24.github.io/BNN_Summary3-visualizations/) · [Code](https://github.com/ketner24/BNN_Summary3-visualizations)
+- **Loss-function visualizations** — [Live](https://ketner24.github.io/Loss_function_visualizations/) · [Code](https://github.com/ketner24/Loss_function_visualizations)
+- **Ensembles, flows, and variational inference** — [Live](https://ketner24.github.io/ensembles_flows_vi/) · [Code](https://github.com/ketner24/ensembles_flows_vi)
+- **Random-walk approximate Bayesian methods** — [Live](https://ketner24.github.io/Random-Walk-Approximate-Bayesian-Methods/) · [Code](https://github.com/ketner24/Random-Walk-Approximate-Bayesian-Methods)
+- **Gaussian variational inference** — [Live](https://ketner24.github.io/Gaussian_Variational_Inference/) · [Code](https://github.com/ketner24/Gaussian_Variational_Inference)
+- **Variational inference with dropout** — [Live](https://ketner24.github.io/Variational_Inference_Dropout/) · [Code](https://github.com/ketner24/Variational_Inference_Dropout)
+- **Returns to variational policy gradients** — [Live](https://ketner24.github.io/Returns_to_Variational_Policy_Gradients/) · [Code](https://github.com/ketner24/Returns_to_Variational_Policy_Gradients)
 
 ---
 
 ## Other projects
 
-- [Hybrid AFT fitness plan](https://github.com/ketner24/Hybrid_AFT_fitness_plan) — eight-week cardio-forward plan with phased loading and a knee-health constraint.
-- [Lottery statistical auditor](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor) — fairness audit plus an XGBoost suggestion layer on CA SuperLotto history.
-- [NPS QR code generator](https://github.com/ketner24/py_qrcode_gen_png) — Streamlit app for custom QR codes.
+- **Hybrid AFT fitness plan** — eight-week cardio-forward plan with phased loading and a knee-health constraint. [Live](https://ketner24.github.io/Hybrid_AFT_fitness_plan/) · [Code](https://github.com/ketner24/Hybrid_AFT_fitness_plan)
+- **Pre-K STEM learning app** — browser activities for ages 3–5. [Live](https://ketner24.github.io/Pre-K-STEM-learning-APP-HTML/) · [Code](https://github.com/ketner24/Pre-K-STEM-learning-APP-HTML)
+- **Lottery statistical auditor** — fairness audit plus an XGBoost suggestion layer on CA SuperLotto history. [Live](https://lottery-statistical-auditor-ai-predictor-wqgc5upaajcsjdwafkri2.streamlit.app/) · [Code](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor)
+- **NPS QR code generator** — Streamlit app for custom QR codes. [Live](https://pyqrcodegenpng-qmapgpvpd299hjacuf3wg5.streamlit.app/) · [Code](https://github.com/ketner24/py_qrcode_gen_png)
 
 ---
