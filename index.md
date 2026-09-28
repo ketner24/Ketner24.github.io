@@ -124,7 +124,7 @@ Interactive optimizer against ESPN and Sleeper leagues. Expected points are a bl
 **Methods:** mean-variance optimization · JavaScript · Vercel · Docker  
 **Code:** [Fantasy_Football_Markowitz_Portfolio_Optimizer](https://github.com/ketner24/Fantasy_Football_Markowitz_Portfolio_Optimizer)
 
-<img src="images/Markowitz_FFL protfolio.png" alt="Fantasy football Markowitz dashboard" width="640"/>
+<img src="images/Markowitz_FFL_portfolio.png" alt="Fantasy football Markowitz dashboard" width="640"/>
 
 ### CENTCOM situational awareness map
 
@@ -133,7 +133,7 @@ Interactive map that fuses historical conflict data with live aviation and marit
 **Methods:** Python · Docker · geospatial analysis  
 **Code:** [CENTCOM_Situational_Awareness_Dashboard](https://github.com/ketner24/CENTCOM_Situational_Awareness_Dashboard)
 
-<img src="images/CENTCOM_Situational _Analysis.png" alt="CENTCOM situational awareness map" width="640"/>
+<img src="images/CENTCOM_Situational_Analysis.png" alt="CENTCOM situational awareness map" width="640"/>
 
 ---
 
