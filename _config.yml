@@ -1,23 +1,30 @@
 title: Shaun Ketner
-description: Operations Research
-remote_theme: "mmistakes/minimal-mistakes"
+description: Operations Research Officer and MS student at the Naval Postgraduate School. Bayesian inference, optimization, and military decision support.
+url: "https://ketner24.github.io"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
-# THIS IS THE MISSING PLUGIN TO FIX THE RED X
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# This puts your photo and info in the sidebar
 author:
   name: "Shaun Ketner"
   avatar: "images/DSC_6415.jpg"
-  bio: "Operations Research Officer | MS Student at NPS"
+  bio: "U.S. Army Operations Research Officer · MS student, Naval Postgraduate School"
   location: "Monterey, CA"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ketner24"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:sketner24@gmail.com"
+    # Add when ready:
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/YOUR-HANDLE"
 
-# This makes the sidebar show up on every page
 defaults:
   - scope:
       path: ""
@@ -25,3 +32,7 @@ defaults:
     values:
       layout: "single"
       author_profile: true
+      classes: wide
+
+atom_feed:
+  hide: true
