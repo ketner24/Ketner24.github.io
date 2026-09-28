@@ -89,7 +89,7 @@ Interactive mapping application that fuses historical conflict data with real-ti
 * **Tech:** Docker, Geospatial Analysis.
 * **Link:** [View Repository](https://github.com/ketner24/CENTCOM_Situational_Awareness_Dashboard)
 
-<img src="images/Iran_conflict_tracker.png" alt="Conflict Tracker Dashboard" width="600"/>
+<img src="images/CENTCOM_Situational _Analysis.png" alt="Conflict Tracker Dashboard" width="600"/>
 
 ### Bayesian Foreign Exchange Market Modeling
 A quantitative FX trading pipeline built on Bayesian Structural Time Series inference, covariance-aware portfolio optimization, and OANDA execution with full risk management, audit logging, and monitoring.
