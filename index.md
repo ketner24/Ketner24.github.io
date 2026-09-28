@@ -57,7 +57,7 @@ A validated exposure metric and a calibrated risk matrix turn qualitative OPSEC 
 
 ### Gap Crossing Tactical Application
 A JavaScript planning and decision-support application for military gap crossing operations. It ingests an Area of Operations from live data services, classifies the route network, identifies and characterises every gap and bridge in it, recommends and sizes the crossing means, designs the force, builds the traffic and synchronization plans, and simulates the crossing end to end.
-* **Tech:** JavaScript, Geospatial Analysis, Combat Engineer Analysis, Staff Planning tool, Bayesian Methods for uncertainty, APIs.
+* **Tech:** Python, R, JavaScript, Geospatial Analysis, Combat Engineer Analysis, Staff Planning tool, Bayesian Methods for uncertainty, APIs.
 
 <img src="images/Gap_Crossing_App.png" alt="Gap Crossing Dashboard" width="600"/>
 <img src="images/Gap_Crossing_App_1.png" alt="Gap Crossing Dashboard" width="600"/>
@@ -65,7 +65,7 @@ A JavaScript planning and decision-support application for military gap crossing
 
 ### Big Sur Marathon Simulation
 Discrete-event simulation of the Big Sur International Marathon, built with SimPy and exposed through a Streamlit UI for interactive exploration.
-* **Tech:** SimPy, Streamlit, logistical analysis.
+* **Tech:** Python, SimPy, Streamlit, logistical analysis.
 * **Link:** [View Repository](https://github.com/ketner24/Big_Sur_Marathon_Simulation)
 
 <img src="images/Big_sur_Marathon_Simulator.png" alt="Big Sur Marathon Logistics Dashboard" width="600"/>
@@ -86,14 +86,14 @@ Interactive fantasy football application that connects to ESPN and Sleeper leagu
 
 ### Iran Conflict Tracker 
 Interactive mapping application that fuses historical conflict data with real-time aviation and maritime tracking across the USCENTCOM AOR.
-* **Tech:** Docker, Geospatial Analysis.
+* **Tech:** Python, Docker, Geospatial Analysis.
 * **Link:** [View Repository](https://github.com/ketner24/CENTCOM_Situational_Awareness_Dashboard)
 
 <img src="images/CENTCOM_Situational _Analysis.png" alt="Conflict Tracker Dashboard" width="600"/>
 
 ### Bayesian Foreign Exchange Market Modeling
 A quantitative FX trading pipeline built on Bayesian Structural Time Series inference, covariance-aware portfolio optimization, and OANDA execution with full risk management, audit logging, and monitoring.
-* **Tech:** Bayesian Methods, Foreign Exchange, Audit Log, Grafana Dashboard, PyTest.
+* **Tech:** Pyhton, Bayesian Methods, Foreign Exchange, Audit Log, Grafana Dashboard, PyTest.
 * **Link:** [View Repository](https://github.com/ketner24/Bayesian-FX-Market-Modeling)
 
 <img src="images/Bayesian_FX.png" alt="Bayesian FX Architecture" width="600"/>
