@@ -1,116 +1,157 @@
 ---
 layout: single
 title: "Operations Research Portfolio"
+permalink: /
 author_profile: true
+toc: true
+toc_label: "On this page"
+toc_icon: "bars"
+header:
+  overlay_color: "#1a2332"
+  overlay_filter: 0.4
+excerpt: "Bayesian inference, optimization, and decision support for military operations."
 ---
 
-## About Me
+## About
 
-I am a U.S. Army Operations Research Officer and a current graduate student at the Naval Postgraduate School (NPS) pursuing an MS in Operations Research (expected 2027). My work focuses on the intersection of military strategy, data analysis, and optimization utilizing mathematical concepts.
+I am a U.S. Army Operations Research officer and a graduate student in Operations Research at the Naval Postgraduate School (expected 2027). I build models that turn incomplete information into decisions: exposure and risk under uncertainty, discrete-event logistics, portfolio-style allocation, and geospatial planning tools.
+
+Current work sits at the intersection of Bayesian methods, mathematical programming, and operational planning. Earlier assignments were in combat engineering and theater sustainment, including company command and accountability for Army Prepositioned Stock in the INDOPACIFIC.
 
 ---
 
 ## Contact
-* **Personal Email:** [sketner24@gmail.com](mailto:sketner24@gmail.com)
-* **NPS Email:** [shaun.ketner@nps.edu](mailto:shaun.ketner@nps.edu)
-* **NIPR:** [shaun.d.ketner.mil@army.mil](mailto:shaun.d.ketner.mil@army.mil)
-* **Phone:** 484-767-6317
-  
----
 
-**Interested In:** Data Analysis, AI/ML, Data Visualization, Bayesian Statistical Methods, Electrical Engineering, Geophysics, Network Linear Programming in Power Systems, Hydrology  
-**Skills:** Geospatial Analysis, Machine Learning for Data-Driven Decision Making, Signal Processing and Time Series, Mathematical Programming, Python and C++
+- **Email:** [sketner24@gmail.com](mailto:sketner24@gmail.com) · [shaun.ketner@nps.edu](mailto:shaun.ketner@nps.edu)
+- **GitHub:** [github.com/ketner24](https://github.com/ketner24)
 
 ---
 
-## Education
-* **MS, Operations Research** | Naval Postgraduate School (2027)
-* **MS, Geological Engineering** | Missouri University of Science and Technology (2019)
-* **BS, Electrical Engineering** | The Citadel (2014)
-* **Project Management Professional** | Project Management Institute (2020, 2023, 2026)
+## Focus and skills
+
+**Focus:** Bayesian inference and uncertainty quantification · mathematical programming and CVaR · discrete-event simulation · geospatial decision support · time-series and regime models
+
+**Tools:** Python · R · SQL · C++ · SimPy / Simio · Pyomo · Streamlit · FastAPI · Docker · geospatial stacks
 
 ---
 
-## Professional Experience
+## Education and credentials
 
-### Assistant Operations Officer / APS3 Property Manager
-*8th Special Troop Battalion, 8th Theater Sustainment Command | Aug 2023 – June 2025*
-* Managed future operations and resourcing for Battalion exercises with joint and allied partners.
-* Accountable for 4 UICs of Army Prepositioned Stock (APS-3) valued over $100 million in the INDOPACIFIC.
-* Synchronized unit training plans and higher headquarters taskings.
-
-### Company Commander (Route Clearance)
-*95th Engineer Company, 84th Engineer Battalion, 130th Engineer Brigade | March 2022 – July 2023*
-* Responsible for the professional development, discipline, and welfare of 145 Soldiers and Families.
-* Maintained accountability and serviceability of vehicle fleets and equipment valued over $64 million.
+- **M.S., Operations Research** — Naval Postgraduate School (expected 2027)
+- **M.S., Geological Engineering** — Missouri University of Science and Technology (2019)
+- **B.S., Electrical Engineering** — The Citadel (2014)
+- **Project Management Professional (PMP)** — PMI (originally 2020; current cycle through 2026)
 
 ---
 
-## Technical Projects
+## Experience
 
-## Thesis Work/AORS Presentation
-### Assessing Adversary Use of Publicly Available Information (PAI) Against Corps Operations
-A validated exposure metric and a calibrated risk matrix turn qualitative OPSEC into a measured, rankable quantity. Public proxies are mostly persistence plus irreducible noise; the controllable leak is what the Army publishes. Contribution: a validated per-activity exposure metric, a calibrated uncertainty interval on that metric from two Bayesian methods, and a risk matrix that ranks 17 activities. So what: the controllable leak is what the Army publishes, so spend OPSEC effort on announcement policy, and use the metric as a recurring, measurable assessment.
-* **Tech:** Bayesian Methods, Linear Regression, API/SQL.
+### Graduate Student, Operations Research
+*Naval Postgraduate School · Monterey, CA · 2025 – Present*
 
-<img src="images/risk_matrix.png" alt="PAI Risk Matrix" width="600"/>
+Coursework and research in stochastic modeling, simulation analysis, machine learning, optimization, and military applications of operations research. Thesis work on measuring adversary use of publicly available information against corps operations; presented at AORS26.
 
-### Gap Crossing Tactical Application
-A JavaScript planning and decision-support application for military gap crossing operations. It ingests an Area of Operations from live data services, classifies the route network, identifies and characterises every gap and bridge in it, recommends and sizes the crossing means, designs the force, builds the traffic and synchronization plans, and simulates the crossing end to end.
-* **Tech:** Python, R, JavaScript, Geospatial Analysis, Combat Engineer Analysis, Staff Planning tool, Bayesian Methods for uncertainty, APIs.
+### Assistant Operations Officer / APS-3 Property Manager
+*8th Special Troops Battalion, 8th Theater Sustainment Command · Aug 2023 – Jun 2025*
 
-<img src="images/Gap_Crossing_App.png" alt="Gap Crossing Dashboard" width="600"/>
-<img src="images/Gap_Crossing_App_1.png" alt="Gap Crossing Dashboard" width="600"/>
-<img src="images/Gap_Crossing_App_2.png" alt="Gap Crossing Dashboard" width="600"/>
+- Planned and resourced battalion exercises with joint and allied partners.
+- Accountable for four UICs of Army Prepositioned Stock (APS-3) valued at more than $100 million in the INDOPACIFIC.
+- Synchronized unit training with higher-headquarters taskings.
 
-### Big Sur Marathon Simulation
-Discrete-event simulation of the Big Sur International Marathon, built with SimPy and exposed through a Streamlit UI for interactive exploration.
-* **Tech:** Python, SimPy, Streamlit, logistical analysis.
-* **Link:** [View Repository](https://github.com/ketner24/Big_Sur_Marathon_Simulation)
+### Company Commander, Route Clearance
+*95th Engineer Company, 84th Engineer Battalion, 130th Engineer Brigade · Mar 2022 – Jul 2023*
 
-<img src="images/Big_sur_Marathon_Simulator.png" alt="Big Sur Marathon Logistics Dashboard" width="600"/>
-
-### Fantasy Football Markowitz Portfolio Optimizer 
-Interactive fantasy football application that connects to ESPN and Sleeper leagues an utilizes Markowitz portfolio analysis to choose lineups and draft players. Expectations come from three inputs, not one season of box scores: the platform projection, a recency-weighted mean over several seasons, and a defense-vs-position adjustment learned from the real schedule. The weekly recommendation then maximises the probability of beating your actual opponent; the risk slider is a manual override that runs both ways (negative = deliberately chase ceiling).
-* **Tech:** Markowitz portfolio optimization, JavaScript, Vercel, Docker.
-* **Link:** [View Repository](https://github.com/ketner24/Fantasy_Football_Markowitz_Portfolio_Optimizer)
-
-<img src="images/Markowitz_FFL protfolio.png" alt="Fantasy Football Dashboard" width="600"/>
-
-### Hybrid AFT Fitness Plan
-8-week cardio-forward plan, ≤45 min/day. 3 engine days (erg intervals, hybrid, SDC) + run speed + Saturday long run; lean strength Monday feeds the AFT deadlift. Knees-over-toes "Knee Armor" throughout, plus a green/amber/red erg-swap system. Phases: Base→Build→Sharpen→Peak→Test. Marathon, AFT, hybrid, healthy knees.
-* **Tech:** HTML, Marathon phase running, AFT training, Hybrid cardio training.
-* **Link:** [View Repository](https://github.com/ketner24/Hybrid_AFT_fitness_plan)
-
-<img src="images/Hybrid_Training_Program.png" alt="Hybrid Training Program Dashboard" width="600"/>
-
-### Iran Conflict Tracker 
-Interactive mapping application that fuses historical conflict data with real-time aviation and maritime tracking across the USCENTCOM AOR.
-* **Tech:** Python, Docker, Geospatial Analysis.
-* **Link:** [View Repository](https://github.com/ketner24/CENTCOM_Situational_Awareness_Dashboard)
-
-<img src="images/CENTCOM_Situational _Analysis.png" alt="Conflict Tracker Dashboard" width="600"/>
-
-### Bayesian Foreign Exchange Market Modeling
-A quantitative FX trading pipeline built on Bayesian Structural Time Series inference, covariance-aware portfolio optimization, and OANDA execution with full risk management, audit logging, and monitoring.
-* **Tech:** Pyhton, Bayesian Methods, Foreign Exchange, Audit Log, Grafana Dashboard, PyTest.
-* **Link:** [View Repository](https://github.com/ketner24/Bayesian-FX-Market-Modeling)
-
-<img src="images/Bayesian_FX.png" alt="Bayesian FX Architecture" width="600"/>
-
-### Lottery Statistical Auditor & AI Predictor
-A Streamlit-powered tool that audits historical lottery data for fairness and utilizes an XGBoost machine learning model for number suggestion.
-* **Tech:** Python, Streamlit, XGBoost.
-* **Link:** [View Repository](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor)
-
-<img src="images/Lottery_screenshot.png" alt="Lottery Dashboard" width="600"/>
-
-### QR Code Generator for NPS
-A dynamic dashboard developed to enable the NPS community to build custom QR codes for academic and professional use.
-* **Tech:** Python, Streamlit.
-* **Link:** [View Repository](https://github.com/ketner24/py_qrcode_gen_png)
-
-<img src="images/QR_code_screenshot.png" alt="QR Code Dashboard" width="600"/>
+- Commanded 145 Soldiers and Families.
+- Accountable for route clearance vehicles and equipment valued at more than $64 million.
 
 ---
 
+## Selected work
+
+Projects are ordered by how well they represent the work I want to keep doing: measured uncertainty, optimization under constraints, and tools a staff can actually use.
+
+### Thesis / AORS — Assessing adversary use of PAI against corps operations
+
+A validated per-activity exposure metric and a calibrated risk matrix turn qualitative OPSEC into something rankable. Public proxies are mostly persistence plus irreducible noise; the leak the Army can control is what it publishes. Two Bayesian methods produce an uncertainty interval on the metric. The matrix ranks 17 activities.
+
+**So what:** put OPSEC effort on announcement policy, and reuse the metric as a recurring assessment rather than a one-time brief.
+
+**Methods:** Bayesian inference · linear models · API / SQL
+
+<img src="images/risk_matrix.png" alt="PAI exposure risk matrix" width="640"/>
+
+### Gap-crossing decision support
+
+Planning application for military gap crossing. It pulls an area of operations from live data services, classifies the route network, finds and characterizes gaps and bridges, recommends and sizes crossing means, builds the force and traffic plan, and simulates the crossing end to end.
+
+**Methods:** Python · R · JavaScript · geospatial analysis · combat engineer planning · Bayesian treatment of uncertainty · APIs
+
+<img src="images/Gap_Crossing_App.png" alt="Gap crossing application" width="640"/>
+<img src="images/Gap_Crossing_App_1.png" alt="Gap crossing route and gap view" width="640"/>
+<img src="images/Gap_Crossing_App_2.png" alt="Gap crossing synchronization view" width="640"/>
+
+### Stochastic portfolio analyzer: regime-aware CVaR
+
+Production-style portfolio API that detects market regimes with a Bayesian hidden Markov model, then solves a CVaR-constrained allocation. Includes walk-forward backtests with transaction costs, an efficient-frontier endpoint, SQLite caching, and scheduled daily updates.
+
+**Methods:** Python · FastAPI · Pyomo · Gaussian HMM · CVaR · Docker  
+**Code:** [Stochastic_portfolio_analyzer](https://github.com/ketner24/Stochastic_portfolio_analyzer)
+
+### Big Sur Marathon simulation
+
+Discrete-event simulation of the Big Sur International Marathon in SimPy, with a Streamlit front end for exploring logistics rates, congestion, and support posture.
+
+**Methods:** Python · SimPy · Streamlit  
+**Code:** [Big_Sur_Marathon_Simulation](https://github.com/ketner24/Big_Sur_Marathon_Simulation)
+
+<img src="images/Big_sur_Marathon_Simulator.png" alt="Big Sur marathon simulation dashboard" width="640"/>
+
+### Bayesian FX market model
+
+Quantitative FX pipeline: Bayesian structural time series for inference, covariance-aware portfolio construction, OANDA execution, risk limits, audit logging, and Grafana monitoring, with tests around the execution path.
+
+**Methods:** Python · Bayesian structural time series · portfolio optimization · PyTest · Grafana  
+**Code:** [Bayesian-FX-Market-Modeling](https://github.com/ketner24/Bayesian-FX-Market-Modeling)
+
+<img src="images/Bayesian_FX.png" alt="Bayesian FX architecture" width="640"/>
+
+### Fantasy football as a Markowitz problem
+
+Interactive optimizer against ESPN and Sleeper leagues. Expected points are a blend of platform projections, a recency-weighted multi-season mean, and a defense-versus-position adjustment. The weekly pick maximizes the chance of beating the actual opponent; a risk slider runs both ways, including a deliberate ceiling chase.
+
+**Methods:** mean-variance optimization · JavaScript · Vercel · Docker  
+**Code:** [Fantasy_Football_Markowitz_Portfolio_Optimizer](https://github.com/ketner24/Fantasy_Football_Markowitz_Portfolio_Optimizer)
+
+<img src="images/Markowitz_FFL protfolio.png" alt="Fantasy football Markowitz dashboard" width="640"/>
+
+### CENTCOM situational awareness map
+
+Interactive map that fuses historical conflict data with live aviation and maritime tracks across the USCENTCOM area of responsibility.
+
+**Methods:** Python · Docker · geospatial analysis  
+**Code:** [CENTCOM_Situational_Awareness_Dashboard](https://github.com/ketner24/CENTCOM_Situational_Awareness_Dashboard)
+
+<img src="images/CENTCOM_Situational _Analysis.png" alt="CENTCOM situational awareness map" width="640"/>
+
+---
+
+## Coursework tools
+
+Built while working through NPS sequences in Bayesian computation and simulation. Useful if you want to see how I explain the math, not just apply it.
+
+- [Simulation Analysis (OA4333) study guide](https://github.com/ketner24/Simulation_Analysis_OA4333_study_guide) — nine modules on the DOE deck: intuition, worked example, failure modes, and why it matters.
+- [Bayesian neural networks weekly review](https://github.com/ketner24/Bayesian_Neural_Networks_study_guide) — CS4323 companion with a Sunday-prep / weekly-run / recap loop.
+- [Ensembles, flows, and variational inference](https://github.com/ketner24/ensembles_flows_vi)
+- [Random-walk approximate Bayesian methods](https://github.com/ketner24/Random-Walk-Approximate-Bayesian-Methods)
+- [Gaussian variational inference](https://github.com/ketner24/Gaussian_Variational_Inference)
+- [Variational inference with dropout](https://github.com/ketner24/Variational_Inference_Dropout)
+
+---
+
+## Other projects
+
+- [Hybrid AFT fitness plan](https://github.com/ketner24/Hybrid_AFT_fitness_plan) — eight-week cardio-forward plan with phased loading and a knee-health constraint.
+- [Lottery statistical auditor](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor) — fairness audit plus an XGBoost suggestion layer on CA SuperLotto history.
+- [NPS QR code generator](https://github.com/ketner24/py_qrcode_gen_png) — Streamlit app for custom QR codes.
+
+---
