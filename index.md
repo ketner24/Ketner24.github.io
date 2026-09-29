@@ -78,7 +78,7 @@ A validated per-activity exposure metric and a calibrated risk matrix turn quali
 
 **Methods:** Bayesian inference · linear models · API / SQL
 
-<img src="images/risk_matrix.png" alt="PAI exposure risk matrix" width="640"/>
+<img src="/images/risk_matrix.png" alt="PAI exposure risk matrix" width="640"/>
 
 ### Gap-crossing decision support
 
@@ -86,9 +86,9 @@ Planning application for military gap crossing. It pulls an area of operations f
 
 **Methods:** Python · R · JavaScript · geospatial analysis · combat engineer planning · Bayesian treatment of uncertainty · APIs
 
-<img src="images/Gap_Crossing_App.png" alt="Gap crossing application" width="640"/>
-<img src="images/Gap_Crossing_App_1.png" alt="Gap crossing route and gap view" width="640"/>
-<img src="images/Gap_Crossing_App_2.png" alt="Gap crossing synchronization view" width="640"/>
+<img src="/images/Gap_Crossing_App.png" alt="Gap crossing application" width="640"/>
+<img src="/images/Gap_Crossing_App_1.png" alt="Gap crossing route and gap view" width="640"/>
+<img src="/images/Gap_Crossing_App_2.png" alt="Gap crossing synchronization view" width="640"/>
 
 ### Stochastic portfolio analyzer — regime-aware CVaR
 
@@ -105,7 +105,7 @@ Discrete-event simulation of the Big Sur International Marathon in SimPy, with a
 **Live:** [Big Sur Marathon Simulator](https://bigsurmarathonsimulation-s2vc5wu3a3qztzhtgiwfdc.streamlit.app/)  
 **Code:** [Big_Sur_Marathon_Simulation](https://github.com/ketner24/Big_Sur_Marathon_Simulation)
 
-<img src="images/Big_sur_Marathon_Simulator.png" alt="Big Sur marathon simulation dashboard" width="640"/>
+<img src="/images/Big_Sur_Marathon_Simulator.png" alt="Big Sur marathon simulation dashboard" width="640"/>
 
 ### Bayesian FX market model
 
@@ -115,7 +115,7 @@ Quantitative FX pipeline: Bayesian structural time series for inference, covaria
 **Live:** [Bayesian FX app](https://bayesian-fx-market-modeling-hkxdjjdryngwi2sau8kshm.streamlit.app/)  
 **Code:** [Bayesian-FX-Market-Modeling](https://github.com/ketner24/Bayesian-FX-Market-Modeling)
 
-<img src="images/Bayesian_FX.png" alt="Bayesian FX architecture" width="640"/>
+<img src="/images/Bayesian_FX.png" alt="Bayesian FX architecture" width="640"/>
 
 ### Fantasy football as a Markowitz problem
 
@@ -124,7 +124,7 @@ Interactive optimizer against ESPN and Sleeper leagues. Expected points are a bl
 **Methods:** mean-variance optimization · JavaScript · Vercel · Docker  
 **Code:** [Fantasy_Football_Markowitz_Portfolio_Optimizer](https://github.com/ketner24/Fantasy_Football_Markowitz_Portfolio_Optimizer)
 
-<img src="images/Markowitz_FFL_portfolio.png" alt="Fantasy football Markowitz dashboard" width="640"/>
+<img src="/images/Markowitz_FFL_portfolio.png" alt="Fantasy football Markowitz dashboard" width="640"/>
 
 ### CENTCOM situational awareness map
 
@@ -133,7 +133,7 @@ Interactive map that fuses historical conflict data with live aviation and marit
 **Methods:** Python · Docker · geospatial analysis  
 **Code:** [CENTCOM_Situational_Awareness_Dashboard](https://github.com/ketner24/CENTCOM_Situational_Awareness_Dashboard)
 
-<img src="images/CENTCOM_Situational_Analysis.png" alt="CENTCOM situational awareness map" width="640"/>
+<img src="/images/CENTCOM_Situational_Analysis.png" alt="CENTCOM situational awareness map" width="640"/>
 
 ---
 
