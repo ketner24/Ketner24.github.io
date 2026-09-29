@@ -2,14 +2,30 @@
 layout: single
 title: "Operations Research Portfolio"
 permalink: /
-author_profile: true
-toc: true
-toc_label: "On this page"
-toc_icon: "bars"
+author_profile: false
+toc: false
+classes: [wide, profile-home]
+profile_hero: true
 header:
   overlay_color: "#1a2332"
-  overlay_filter: 0.4
 excerpt: "Bayesian inference, optimization, and decision support for military operations."
+section_nav:
+  - title: "About"
+    url: "#about"
+  - title: "Contact"
+    url: "#contact"
+  - title: "Skills"
+    url: "#focus-and-skills"
+  - title: "Education"
+    url: "#education-and-credentials"
+  - title: "Experience"
+    url: "#experience"
+  - title: "Selected work"
+    url: "#selected-work"
+  - title: "Coursework"
+    url: "#coursework-tools"
+  - title: "Other projects"
+    url: "#other-projects"
 ---
 
 ## About

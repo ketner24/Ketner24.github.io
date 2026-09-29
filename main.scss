@@ -1,0 +1,214 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   Portfolio home: compact profile banner + one-line section menu
+   (only applies to pages with `classes: [wide, profile-home]`)
+   ========================================================================== */
+
+$hero-bg: #1a2332;
+$hero-accent: #d4a21a;   // same gold as the baseball card
+$home-width: 1000px;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.profile-home {
+  // The name is in the banner, so the thin site-title bar above it is redundant here.
+  .masthead {
+    display: none;
+  }
+
+  // No left sidebar on this page: center one readable column.
+  .page {
+    float: none;
+    width: 100%;
+    max-width: $home-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+  }
+
+  .page__inner-wrap {
+    margin-top: 0;
+  }
+
+  .page__content h2,
+  .page__content h3 {
+    scroll-margin-top: 1em;
+  }
+
+  // Start "About" right under the banner
+  .page__content > h2:first-child {
+    margin-top: 0;
+  }
+}
+
+.profile-hero {
+  color: #fff;
+  background-color: $hero-bg;
+  margin-bottom: 1.5em;
+  padding-top: 1.75em;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $hero-accent;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 1.75em;
+    max-width: calc(#{$home-width} + 2em);
+    margin: 0 auto;
+    padding: 0 1em;
+  }
+
+  &__avatar {
+    flex: none;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 18%;
+    border: 3px solid rgba(255, 255, 255, 0.85);
+  }
+
+  &__text {
+    min-width: 0;
+  }
+
+  &__eyebrow {
+    margin: 0 0 0.3em;
+    color: $hero-accent;
+    font-family: $sans-serif;
+    font-size: $type-size-7;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  &__name {
+    margin: 0;
+    color: #fff;
+    font-size: $type-size-3;
+    line-height: 1.15;
+
+    @include breakpoint($medium) {
+      font-size: $type-size-2;
+    }
+  }
+
+  &__bio {
+    margin: 0.3em 0 0.5em;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+  }
+
+  &__lead {
+    margin: 0 0 0.6em;
+    color: #fff;
+    font-size: $type-size-5;
+    line-height: 1.4;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35em 1.25em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    color: rgba(255, 255, 255, 0.85);
+
+    li {
+      margin: 0;
+    }
+  }
+
+  // One-line menu of the main headings (replaces the long table of contents)
+  &__nav {
+    margin-top: 1.5em;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(0, 0, 0, 0.18);
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4em;
+      max-width: calc(#{$home-width} + 2em);
+      margin: 0 auto;
+      padding: 0.6em 1em;
+      list-style: none;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      padding: 0.25em 0.85em;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      color: rgba(255, 255, 255, 0.88);
+      font-family: $sans-serif;
+      font-size: $type-size-7;
+      white-space: nowrap;
+
+      &:hover,
+      &:focus {
+        border-color: $hero-accent;
+        background: $hero-accent;
+        color: $hero-bg;
+      }
+    }
+  }
+
+  // Phones: stack photo over text, and let the menu scroll sideways on one line
+  @media (max-width: #{$small - 1px}) {
+    padding-top: 1.25em;
+
+    &__inner {
+      flex-direction: column;
+      gap: 0.9em;
+      text-align: center;
+    }
+
+    &__avatar {
+      width: 104px;
+      height: 104px;
+    }
+
+    &__links {
+      justify-content: center;
+    }
+
+    &__nav ul {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}

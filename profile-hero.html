@@ -1,0 +1,38 @@
+{% comment %}
+  Profile banner for the portfolio home page.
+  Used when the page front matter sets `profile_hero: true`.
+  Name, bio, location, photo and links come from `author:` in _config.yml,
+  so edit them there. Section links come from `section_nav:` in index.md.
+{% endcomment %}
+<div class="profile-hero" style="background-color: {{ page.header.overlay_color | default: '#1a2332' }};">
+  <div class="profile-hero__inner">
+    {% if site.author.avatar %}
+      <img class="profile-hero__avatar" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+    {% endif %}
+    <div class="profile-hero__text">
+      {% if page.title %}<p class="profile-hero__eyebrow">{{ page.title }}</p>{% endif %}
+      <h1 id="page-title" class="profile-hero__name" itemprop="headline">{{ site.author.name | default: site.title }}</h1>
+      {% if site.author.bio %}<p class="profile-hero__bio">{{ site.author.bio }}</p>{% endif %}
+      {% if page.excerpt %}<p class="profile-hero__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+      <ul class="profile-hero__links">
+        {% if site.author.location %}
+          <li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ site.author.location }}</li>
+        {% endif %}
+        {% for link in site.author.links %}
+          {% if link.label and link.url %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% if page.section_nav %}
+    <nav class="profile-hero__nav" aria-label="On this page">
+      <ul>
+        {% for item in page.section_nav %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+</div>
