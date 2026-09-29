@@ -76,7 +76,7 @@ Coursework and research in stochastic modeling, simulation analysis, Bayesian co
 
 Projects are ordered by how well they represent the work I want to keep doing: measured uncertainty, optimization under constraints, and tools a staff can actually use.
 
-### Thesis / AORS — Assessing adversary use of PAI against corps operations
+### Thesis / AORS : Assessing adversary use of PAI against corps operations
 
 How much can an adversary learn about U.S. corps deployment activity from publicly available information alone? The thesis builds a weekly panel of open-source signals and a per-activity exposure metric, then uses Bayesian methods (MAP estimation and Hamiltonian Monte Carlo) to put an uncertainty interval on each estimate. The goal is to let a staff rank OPSEC effort by measured exposure instead of by judgment alone. Presented at AORS.
 
@@ -95,7 +95,7 @@ Planning application for military gap crossing. It pulls an area of operations f
 <img src="/images/Gap_Crossing_App_1.png" alt="Gap crossing route and gap view" width="640"/>
 <img src="/images/Gap_Crossing_App_2.png" alt="Gap crossing synchronization view" width="640"/>
 
-### Stochastic portfolio analyzer — regime-aware CVaR
+### Stochastic portfolio analyzer : regime-aware CVaR
 
 Production-style portfolio API that detects market regimes with a Bayesian hidden Markov model, then solves a CVaR-constrained allocation. Includes walk-forward backtests with transaction costs, an efficient-frontier endpoint, SQLite caching, and scheduled daily updates.
 
