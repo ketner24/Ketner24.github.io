@@ -172,7 +172,7 @@ Built while working through NPS sequences in Bayesian computation and simulation
 
 - **Hybrid AFT fitness plan** — eight-week cardio-forward plan with phased loading. [Live](https://ketner24.github.io/Hybrid_AFT_fitness_plan/) · [Code](https://github.com/ketner24/Hybrid_AFT_fitness_plan)
 - **Pre-K STEM learning app** — browser activities for ages 3–5. [Live](https://ketner24.github.io/Pre-K-STEM-learning-APP-HTML/) · [Code](https://github.com/ketner24/Pre-K-STEM-learning-APP-HTML)
-- **Lottery statistical auditor** — chi-square uniformity tests, confidence intervals, and Poisson wait times on Powerball, Mega Millions, and SuperLotto Plus history, plus an XGBoost classifier backtested against the random-draw baseline. [Live](https://lottery-statistical-auditor-ai-predictor-wqgc5upaajcsjdwafkri2.streamlit.app/) · [Code](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor)
+- **Lottery statistical auditor** — chi-square uniformity tests, confidence intervals, and Poisson wait times on Powerball, Mega Millions, and SuperLotto Plus history, plus an XGBoost classifier backtested against the random-draw baseline. [Live](https://lottery-prediction-model-8d56a5kyappzyhndbfzgore.streamlit.app/) · [Code](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor)
 - **NPS QR code generator** — Streamlit app for custom QR codes. [Live](https://pyqrcodegenpng-qmapgpvpd299hjacuf3wg5.streamlit.app/) · [Code](https://github.com/ketner24/py_qrcode_gen_png)
 
 ---
