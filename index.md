@@ -123,7 +123,7 @@ Production-style portfolio API that detects market regimes with a Bayesian hidde
 Discrete-event simulation of the Big Sur International Marathon in SimPy, with a Streamlit front end for exploring logistics rates, congestion, and support posture. Scenario comparisons use common random numbers with paired t-tests, and a sensitivity sweep finds the point where adding resources stops paying off.
 
 **Methods:** Python · SimPy · Streamlit · common random numbers · Monte Carlo  
-**Live:** [Big Sur Marathon Simulator](https://bigsurmarathonsimulation-s2vc5wu3a3qztzhtgiwfdc.streamlit.app/)  
+**Live:** <a href="https://bigsurmarathonsimulation-s2vc5wu3a3qztzhtgiwfdc.streamlit.app/" target="_blank" rel="noopener noreferrer">Open Streamlit app</a>  
 **Code:** [Big_Sur_Marathon_Simulation](https://github.com/ketner24/Big_Sur_Marathon_Simulation)
 
 <img src="/images/Big_Sur_Marathon_Simulator.png" alt="Big Sur marathon simulation dashboard" width="640"/>
@@ -133,7 +133,7 @@ Discrete-event simulation of the Big Sur International Marathon in SimPy, with a
 Quantitative FX pipeline: Bayesian structural time series in PyMC for inference, covariance-aware portfolio construction in Pyomo, OANDA execution, risk limits, audit logging, and Grafana monitoring, with unit tests around risk, optimization, and the trade journal.
 
 **Methods:** Python · PyMC · Bayesian structural time series · portfolio optimization · PyTest · Grafana  
-**Live:** [Bayesian FX app](https://bayesian-fx-market-modeling-hkxdjjdryngwi2sau8kshm.streamlit.app/)  
+**Live:** <a href="https://bayesian-fx-market-modeling-hkxdjjdryngwi2sau8kshm.streamlit.app/" target="_blank" rel="noopener noreferrer">Open Streamlit app</a>  
 **Code:** [Bayesian-FX-Market-Modeling](https://github.com/ketner24/Bayesian-FX-Market-Modeling)
 
 <img src="/images/Bayesian_FX.png" alt="Bayesian FX architecture" width="640"/>
@@ -172,7 +172,7 @@ Built while working through NPS sequences in Bayesian computation and simulation
 
 - **Hybrid AFT fitness plan** — eight-week cardio-forward plan with phased loading. [Live](https://ketner24.github.io/Hybrid_AFT_fitness_plan/) · [Code](https://github.com/ketner24/Hybrid_AFT_fitness_plan)
 - **Pre-K STEM learning app** — browser activities for ages 3–5. [Live](https://ketner24.github.io/Pre-K-STEM-learning-APP-HTML/) · [Code](https://github.com/ketner24/Pre-K-STEM-learning-APP-HTML)
-- **Lottery statistical auditor** — chi-square uniformity tests, confidence intervals, and Poisson wait times on Powerball, Mega Millions, and SuperLotto Plus history, plus an XGBoost classifier backtested against the random-draw baseline. [Live](https://lottery-prediction-model-8d56a5kyappzyhndbfzgore.streamlit.app/) · [Code](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor)
-- **NPS QR code generator** — Streamlit app for custom QR codes. [Live](https://pyqrcodegenpng-qmapgpvpd299hjacuf3wg5.streamlit.app/) · [Code](https://github.com/ketner24/py_qrcode_gen_png)
+- **Lottery statistical auditor** — chi-square uniformity tests, confidence intervals, and Poisson wait times on Powerball, Mega Millions, and SuperLotto Plus history, plus an XGBoost classifier backtested against the random-draw baseline. <a href="https://lottery-prediction-model-8d56a5kyappzyhndbfzgore.streamlit.app/" target="_blank" rel="noopener noreferrer">Open Streamlit app</a> · [Code](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor)
+- **NPS QR code generator** — Streamlit app for custom QR codes. <a href="https://pyqrcodegenpng-qmapgpvpd299hjacuf3wg5.streamlit.app/" target="_blank" rel="noopener noreferrer">Open Streamlit app</a> · [Code](https://github.com/ketner24/py_qrcode_gen_png)
 
 ---
