@@ -31,7 +31,7 @@ Current work sits at the intersection of Bayesian methods, mathematical programm
 
 **Focus:** Bayesian inference and uncertainty quantification · mathematical programming and CVaR · discrete-event simulation · geospatial decision support · time-series and regime models
 
-**Tools:** Python · R · SQL · C++ · SimPy / Simio · Pyomo · Streamlit · FastAPI · Docker · geospatial stacks
+**Tools:** Python · R · SQL · C++ · PyMC · PyTorch · SimPy / Simio · Pyomo · Streamlit · FastAPI · Docker · geospatial stacks
 
 ---
 
@@ -64,6 +64,12 @@ Coursework and research in stochastic modeling, simulation analysis, Bayesian co
 - Commanded 145 Soldiers and Families.
 - Accountable for vehicle fleets and equipment valued at more than $64 million.
 
+### Earlier assignments
+
+- Brigade Assistant S4, 130th Engineer Brigade, Schofield Barracks, HI
+- Project Engineer (EPEP), 554th RED HORSE Squadron, Guam
+- Executive Officer and Platoon Leader, 317th Brigade Engineer Battalion, Fort Polk, LA
+
 ---
 
 ## Selected work
@@ -72,19 +78,18 @@ Projects are ordered by how well they represent the work I want to keep doing: m
 
 ### Thesis / AORS — Assessing adversary use of PAI against corps operations
 
-A validated per-activity exposure metric and a calibrated risk matrix turn qualitative OPSEC into something rankable. Public proxies are mostly persistence plus irreducible noise; the leak the Army can control is what it publishes. Two Bayesian methods produce an uncertainty interval on the metric. The matrix ranks 17 activities.
+How much can an adversary learn about U.S. corps deployment activity from publicly available information alone? The thesis builds a weekly panel of open-source signals and a per-activity exposure metric, then uses Bayesian methods (MAP estimation and Hamiltonian Monte Carlo) to put an uncertainty interval on each estimate. The goal is to let a staff rank OPSEC effort by measured exposure instead of by judgment alone. Presented at AORS.
 
-**So what:** put OPSEC effort on announcement policy, and reuse the metric as a recurring assessment rather than a one-time brief.
+**Status:** in progress. Findings and the activity-level risk matrix will be posted after sponsor release review.
 
 **Methods:** Bayesian inference · linear models · API / SQL
-
-<img src="/images/risk_matrix.png" alt="PAI exposure risk matrix" width="640"/>
 
 ### Gap-crossing decision support
 
 Planning application for military gap crossing. It pulls an area of operations from live data services, classifies the route network, finds and characterizes gaps and bridges, recommends and sizes crossing means, builds the force and traffic plan, and simulates the crossing end to end.
 
-**Methods:** Python · R · JavaScript · geospatial analysis · combat engineer planning · Bayesian treatment of uncertainty · APIs
+**Methods:** Python · R · JavaScript · geospatial analysis · combat engineer planning · Bayesian treatment of uncertainty · APIs  
+**Code:** not public; walkthrough available on request
 
 <img src="/images/Gap_Crossing_App.png" alt="Gap crossing application" width="640"/>
 <img src="/images/Gap_Crossing_App_1.png" alt="Gap crossing route and gap view" width="640"/>
@@ -99,9 +104,9 @@ Production-style portfolio API that detects market regimes with a Bayesian hidde
 
 ### Big Sur Marathon simulation
 
-Discrete-event simulation of the Big Sur International Marathon in SimPy, with a Streamlit front end for exploring logistics rates, congestion, and support posture.
+Discrete-event simulation of the Big Sur International Marathon in SimPy, with a Streamlit front end for exploring logistics rates, congestion, and support posture. Scenario comparisons use common random numbers with paired t-tests, and a sensitivity sweep finds the point where adding resources stops paying off.
 
-**Methods:** Python · SimPy · Streamlit  
+**Methods:** Python · SimPy · Streamlit · common random numbers · Monte Carlo  
 **Live:** [Big Sur Marathon Simulator](https://bigsurmarathonsimulation-s2vc5wu3a3qztzhtgiwfdc.streamlit.app/)  
 **Code:** [Big_Sur_Marathon_Simulation](https://github.com/ketner24/Big_Sur_Marathon_Simulation)
 
@@ -109,9 +114,9 @@ Discrete-event simulation of the Big Sur International Marathon in SimPy, with a
 
 ### Bayesian FX market model
 
-Quantitative FX pipeline: Bayesian structural time series for inference, covariance-aware portfolio construction, OANDA execution, risk limits, audit logging, and Grafana monitoring, with tests around the execution path.
+Quantitative FX pipeline: Bayesian structural time series in PyMC for inference, covariance-aware portfolio construction in Pyomo, OANDA execution, risk limits, audit logging, and Grafana monitoring, with unit tests around risk, optimization, and the trade journal.
 
-**Methods:** Python · Bayesian structural time series · portfolio optimization · PyTest · Grafana  
+**Methods:** Python · PyMC · Bayesian structural time series · portfolio optimization · PyTest · Grafana  
 **Live:** [Bayesian FX app](https://bayesian-fx-market-modeling-hkxdjjdryngwi2sau8kshm.streamlit.app/)  
 **Code:** [Bayesian-FX-Market-Modeling](https://github.com/ketner24/Bayesian-FX-Market-Modeling)
 
@@ -121,16 +126,16 @@ Quantitative FX pipeline: Bayesian structural time series for inference, covaria
 
 Interactive optimizer against ESPN and Sleeper leagues. Expected points are a blend of platform projections, a recency-weighted multi-season mean, and a defense-versus-position adjustment. The weekly pick maximizes the chance of beating the actual opponent; a risk slider runs both ways, including a deliberate ceiling chase.
 
-**Methods:** mean-variance optimization · JavaScript · Vercel · Docker  
+**Methods:** mean-variance optimization · Python (scoring engine, leakage-safe walk-forward features) · JavaScript  
 **Code:** [Fantasy_Football_Markowitz_Portfolio_Optimizer](https://github.com/ketner24/Fantasy_Football_Markowitz_Portfolio_Optimizer)
 
 <img src="/images/Markowitz_FFL_portfolio.png" alt="Fantasy football Markowitz dashboard" width="640"/>
 
 ### CENTCOM situational awareness map
 
-Interactive map that fuses historical conflict data with live aviation and maritime tracks across the USCENTCOM area of responsibility.
+Interactive map that fuses historical conflict data with live aviation and maritime tracks across the USCENTCOM area of responsibility. All data is unclassified and comes from public sources (ACLED, OpenSky Network, AISStream).
 
-**Methods:** Python · Docker · geospatial analysis  
+**Methods:** Python · Docker · Redis · geospatial analysis  
 **Code:** [CENTCOM_Situational_Awareness_Dashboard](https://github.com/ketner24/CENTCOM_Situational_Awareness_Dashboard)
 
 <img src="/images/CENTCOM_Situational_Analysis.png" alt="CENTCOM situational awareness map" width="640"/>
@@ -141,23 +146,17 @@ Interactive map that fuses historical conflict data with live aviation and marit
 
 Built while working through NPS sequences in Bayesian computation and simulation. Each of these is a live GitHub Pages site.
 
-- **Simulation Analysis (OA4333)** — nine modules on the DOE deck: intuition, worked example, failure modes, and why it matters. [Live](https://ketner24.github.io/Simulation_Analysis_OA4333_study_guide/) · [Code](https://github.com/ketner24/Simulation_Analysis_OA4333_study_guide)
+- **Simulation Analysis (OA4333)** — nine modules on design of experiments: intuition, worked example, failure modes, and why it matters. [Live](https://ketner24.github.io/Simulation_Analysis_OA4333_study_guide/) · [Code](https://github.com/ketner24/Simulation_Analysis_OA4333_study_guide)
 - **Bayesian neural networks weekly review** — CS4323 companion with a Sunday-prep / weekly-run / recap loop. [Live](https://ketner24.github.io/Bayesian_Neural_Networks_study_guide/) · [Code](https://github.com/ketner24/Bayesian_Neural_Networks_study_guide)
-- **BNN visualizations** — [Live](https://ketner24.github.io/BNN_Summary3-visualizations/) · [Code](https://github.com/ketner24/BNN_Summary3-visualizations)
-- **Loss-function visualizations** — [Live](https://ketner24.github.io/Loss_function_visualizations/) · [Code](https://github.com/ketner24/Loss_function_visualizations)
-- **Ensembles, flows, and variational inference** — [Live](https://ketner24.github.io/ensembles_flows_vi/) · [Code](https://github.com/ketner24/ensembles_flows_vi)
-- **Random-walk approximate Bayesian methods** — [Live](https://ketner24.github.io/Random-Walk-Approximate-Bayesian-Methods/) · [Code](https://github.com/ketner24/Random-Walk-Approximate-Bayesian-Methods)
-- **Gaussian variational inference** — [Live](https://ketner24.github.io/Gaussian_Variational_Inference/) · [Code](https://github.com/ketner24/Gaussian_Variational_Inference)
-- **Variational inference with dropout** — [Live](https://ketner24.github.io/Variational_Inference_Dropout/) · [Code](https://github.com/ketner24/Variational_Inference_Dropout)
-- **Returns to variational policy gradients** — [Live](https://ketner24.github.io/Returns_to_Variational_Policy_Gradients/) · [Code](https://github.com/ketner24/Returns_to_Variational_Policy_Gradients)
+- **Interactive visualizations** — [BNNs](https://ketner24.github.io/BNN_Summary3-visualizations/) · [loss functions](https://ketner24.github.io/Loss_function_visualizations/) · [ensembles, flows, and VI](https://ketner24.github.io/ensembles_flows_vi/) · [random-walk approximate Bayes](https://ketner24.github.io/Random-Walk-Approximate-Bayesian-Methods/) · [Gaussian VI](https://ketner24.github.io/Gaussian_Variational_Inference/) · [VI with dropout](https://ketner24.github.io/Variational_Inference_Dropout/) · [variational policy gradients](https://ketner24.github.io/Returns_to_Variational_Policy_Gradients/)
 
 ---
 
 ## Other projects
 
-- **Hybrid AFT fitness plan** — eight-week cardio-forward plan with phased loading and a knee-health constraint. [Live](https://ketner24.github.io/Hybrid_AFT_fitness_plan/) · [Code](https://github.com/ketner24/Hybrid_AFT_fitness_plan)
+- **Hybrid AFT fitness plan** — eight-week cardio-forward plan with phased loading. [Live](https://ketner24.github.io/Hybrid_AFT_fitness_plan/) · [Code](https://github.com/ketner24/Hybrid_AFT_fitness_plan)
 - **Pre-K STEM learning app** — browser activities for ages 3–5. [Live](https://ketner24.github.io/Pre-K-STEM-learning-APP-HTML/) · [Code](https://github.com/ketner24/Pre-K-STEM-learning-APP-HTML)
-- **Lottery statistical auditor** — fairness audit plus an XGBoost suggestion layer on CA SuperLotto history. [Live](https://lottery-statistical-auditor-ai-predictor-wqgc5upaajcsjdwafkri2.streamlit.app/) · [Code](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor)
+- **Lottery statistical auditor** — chi-square uniformity tests, confidence intervals, and Poisson wait times on Powerball, Mega Millions, and SuperLotto Plus history, plus an XGBoost classifier backtested against the random-draw baseline. [Live](https://lottery-statistical-auditor-ai-predictor-wqgc5upaajcsjdwafkri2.streamlit.app/) · [Code](https://github.com/ketner24/Lottery-Statistical-Auditor-AI-Predictor)
 - **NPS QR code generator** — Streamlit app for custom QR codes. [Live](https://pyqrcodegenpng-qmapgpvpd299hjacuf3wg5.streamlit.app/) · [Code](https://github.com/ketner24/py_qrcode_gen_png)
 
 ---
